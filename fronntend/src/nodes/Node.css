@@ -1,0 +1,67 @@
+
+.node {
+    width: 200px;
+    height: auto;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .node label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .node input[type="text"],
+  .node select {
+    width: calc(100% - 20px);
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .node textarea {
+    width: calc(100% - 20px);
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .node span {
+    font-weight: bold;
+  }
+  
+  .node .handle {
+    width: 10px;
+    height: 10px;
+    background-color: #007bff;
+    border-radius: 50%;
+  }
+  
+  .node .handle.source {
+    float: right;
+  }
+  
+  .node .handle.target {
+    float: left;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  

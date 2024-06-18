@@ -1,0 +1,41 @@
+/* styles.css */
+
+.node-container {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .node-name {
+    margin-top: 5px;
+    font-weight: bold;
+  }
+  
+  .node-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .node-label {
+    margin-right: 5px;
+  }
+  
+  .node-select {
+    width: 70px;
+  }
+  
+  .node-input {
+    width: calc(100% - 10px);
+  }
+  
+  .node-handle {
+    width: 20px;
+    height: 20px;
+    background-color: #4caf50;
+    border-radius: 50%;
+  }
+  
