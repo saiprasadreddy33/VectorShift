@@ -46,10 +46,6 @@ To run the Pipeline Builder App locally, follow these steps:
 
 6. Install backend dependencies:
 
-    ```
-    pip install -r requirements.txt
-    ```
-
 7. Start the backend server:
 
     ```
